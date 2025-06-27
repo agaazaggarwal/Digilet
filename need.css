@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+  background-color: #135;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #031625;
+}
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #fff;
+}
+
+.nav-link{
+    color: white;
+}
+
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scrolled .navbar-brand {
+  color: #fff;
+}
+
+.navbar-scroll,
+.navbar-scrolled {
+  background-color: #cbbcb1;
+}
+
+.mask-custom {
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, .15);
+}
+
+
+.navbar-brand {
+  font-size: 1.75rem;
+  letter-spacing: 3px;
+}
+.dropdown-menu {
+  z-index: 9999;
+  background: rgba(255, 255, 255, 0.386);
+}
+
+.hero{
+    display: inline-flex;
+    position: absolute;
+    background-size: cover;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-attachment: fixed;
+    background-image: url(img/main.webp);
+  }
+.hero h1{
+    position: absolute;
+    top: 30vh;
+    color: white;
+    padding: 2vh;
+    height: fit-content;
+    background-color: rgb(18, 51, 77);
+    border: 1px solid #2196F3;
+}
+::-webkit-scrollbar{
+  width:8px;
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  background-color: #2196F3;
+  box-shadow: inset 0 0 6px rgba(0,0,0,.5);
+}
+::-webkit-scrollbar-track{
+  background-color: #d5f7f7;
+  box-shadow: inset 0 0 6px rgba(0,0,0,.4);
+}
+
+h4{
+  margin: 5vh;
+  color: #fff;
+}
+
+.hero2{
+  top: 108vh;
+  display: inline-flex;
+  position: absolute;
+  background-size: cover;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-attachment: fixed;
+  background-image: url(img/req.jpg);
+}
+.hero2 h1{
+  position: sticky;
+  top: 30vh;
+  color: white;
+  padding: 2vh;
+  height: fit-content;
+  background-color: rgb(18, 51, 77);
+  border: 1px solid #2196F3;
+}
+
+h3{
+
+margin-top: 0vh;
+color: #fff;
+}
+
+.info{
+    position: absolute;
+    top: 78vh;
+    z-index: 10;
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(18, 51, 77);
+}
+.info2{
+  position: absolute;
+  top: 188vh;
+  z-index: 10;
+  width: 100%;
+  height: 30vh;
+  background-color: rgb(18, 51, 77);
+}
+
+
+.info h4{
+  font-size: 17px;
+  margin: 1vh;
+  background-color: #135;
+}
+.info2 h4{
+  font-size: 17px;
+  margin: 1vh;
+}
